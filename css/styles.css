@@ -32,11 +32,25 @@
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  margin-left: 150px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+.fixdiv {
+  position: relative;
 }
 
 
+
 /* FEATURES */
+
+#features {
+  padding: 200px 6% 200px 6%;
+  background-color: white;
+  position: relative;
+  z-index: 10;
+}
+
 
 
 .featurepic {
@@ -95,7 +109,19 @@
   color: white;
 }
 
+/* Press Section */
 
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+
+.presspic {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
 
 
 h1 {
@@ -108,16 +134,15 @@ h1 {
 
 body {
   font-family: "Montserrat";
+
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 160px 15%;
 }
 
 
-#features {
-  margin: 200px 6% 200px 6%;
-}
+
 
 #title {
   background-color: #ff4c68;
@@ -125,5 +150,72 @@ body {
 
 #testimonials {
   background-color: #ff4c68;
+  font-family: "Montserrat";
+}
 
+
+/* PRTICING */
+
+#pricing {
+  padding: 100px;
+  font-family: "Montserrat";
+}
+
+.pricing-column {
+  padding: 3% 3%;
+}
+
+.pricetitle {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.pricetitle2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: auto;
+}
+
+.pricehead {
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.priceh2 {
+  font-weight: 900;
+}
+
+
+
+/* CAll to Action */
+
+#cta {
+  background-color:#ff4c68;
+  text-align: center;
+}
+
+.ctatext {
+  color: white;
+  font-family: "Montserrat"
+
+}
+
+
+/* Footer */
+
+#footer {
+  background-color:#ff4c68;
+  text-align: center;
+}
+
+.footertext {
+  color: white;
+  margin-bottom: 0;
+}
+
+.bottom-button {
+  margin: 2% 3% 2% 0;
 }
